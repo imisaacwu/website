@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.ab5e004d.css",
-    "main.js": "/website/static/js/main.58bc8556.js",
-    "static/js/453.bb828c5d.chunk.js": "/website/static/js/453.bb828c5d.chunk.js",
+    "main.css": "/website/static/css/main.f1e94474.css",
+    "main.js": "/website/static/js/main.174d1553.js",
+    "static/js/358.12d79525.chunk.js": "/website/static/js/358.12d79525.chunk.js",
+    "static/media/ghibli.png": "/website/static/media/ghibli.32a98098a88d90d09f59.png",
+    "static/media/Cat.gif": "/website/static/media/Cat.d961fc564789fab2d0f6.gif",
+    "static/media/Isaac-Wu-Resume.pdf": "/website/static/media/Isaac-Wu-Resume.1c2a36ea706eb0bdb81b.pdf",
+    "static/media/quaggy.png": "/website/static/media/quaggy.c02e5ada82502b13d9fe.png",
+    "static/media/icon.png": "/website/static/media/icon.0c6c94a88083ab2e3928.png",
     "index.html": "/website/index.html",
-    "main.ab5e004d.css.map": "/website/static/css/main.ab5e004d.css.map",
-    "main.58bc8556.js.map": "/website/static/js/main.58bc8556.js.map",
-    "453.bb828c5d.chunk.js.map": "/website/static/js/453.bb828c5d.chunk.js.map"
+    "main.f1e94474.css.map": "/website/static/css/main.f1e94474.css.map",
+    "main.174d1553.js.map": "/website/static/js/main.174d1553.js.map",
+    "358.12d79525.chunk.js.map": "/website/static/js/358.12d79525.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab5e004d.css",
-    "static/js/main.58bc8556.js"
+    "static/css/main.f1e94474.css",
+    "static/js/main.174d1553.js"
   ]
 }
