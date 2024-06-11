@@ -1,10 +1,91 @@
 html {
-  background-color: darkgray;
+  background-color: #282c34;
 }
 
 /* Offset for navbar */
 .container {
+  display: flex;
+  justify-content: center;
   margin: 7vh auto auto;
+}
+
+#bkg {
+  height: 100vh;
+  background-color: black;
+  z-index: -1;
+}
+
+.fade {
+  animation: fade 1s 1.5s ease-in-out forwards;
+}
+
+@keyframes fade {
+  99% {
+    opacity: 0;
+    height: 100vh;
+  }
+  100% {
+    height: 0;
+  }
+}
+
+.slider {
+  width: 100%;
+  height: 49.75%;
+  background-color: white;
+  position: absolute;
+}
+
+.top {
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 96px;
+  /* font-weight: bold; */
+}
+
+.slide-up {
+  animation: slide-up 1s .5s ease-in-out forwards;
+}
+
+@keyframes slide-up { 100% { top: -49.75%; } }
+
+.bottom {
+  bottom: 0;
+}
+
+.slide-down {
+  animation: slide-down 1s .5s ease-in-out forwards;
+}
+
+@keyframes slide-down { 100% { bottom: -49.75%; } }
+
+.panel {
+  width: 70%;
+  margin: auto 25px;
+  color: aliceblue;
+}
+
+.panel .title {
+  margin: 12px;
+  font-size: 64px;
+}
+
+.panel .bio {
+  margin: 12px;
+  font-size: 24px;
+}
+
+.panel .bio a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#me {
+  margin: 20px;
+  border-radius: 50%;
+  width: 25%;
 }
 
 #navbar {
@@ -68,7 +149,7 @@ html {
 .tile {
   display: flex;
 
-  margin: 10px;
+  margin: 30px 15px;
   height: 33vh;
 
   border: none;
@@ -79,16 +160,15 @@ html {
 }
 
 .tile:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .tile img {
   width: 20vw;
-  height: 33vh;
 
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
-  border: 1px solid grey;
+  border: 3px solid grey;
   object-fit: cover;
   object-position: center;
 }
@@ -101,8 +181,9 @@ html {
   width: 30vmin;
   padding-left: 10px;
 
-  background-color: white;
-  border: 1px solid grey;
+  background-color: #999;
+  border: 3px solid grey;
+  border-left: none;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -123,8 +204,15 @@ html {
 
   padding: 0.25vh;
 
+  color: #555;
   text-align: left;
   font-size: 16px;
+  transition: 0.25s;
+}
+
+.tile:hover .content .subtitle {
+  color: black;
+  font-size: 20px;
 }
 
 .tile .content .description {
@@ -132,6 +220,25 @@ html {
 
   padding: 0.25vh;
 
+  color: #555;
   text-align: left;
   font-size: 12px;
+  transition: 0.25s;
+}
+
+.tile:hover .content .description {
+  color: black;
+  font-size: 16px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+#resume {
+  margin: auto;
+
+  width: 80%;
+  height: 100vh;
 }

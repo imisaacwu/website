@@ -11,17 +11,17 @@ function Navbar() {
     return (
         <nav id={"navbar"}>
             <div id={"links"}>
-                <NavLink to={"/"}>Home</NavLink>
+                <NavLink to={"/home"}>Home</NavLink>
                 <NavLink to={"/projects"}>Projects</NavLink>
-                {/*<Link to={"/"}>Resumé</Link>*/}
+                <NavLink to={"/resume"}>Resumé</NavLink>
             </div>
             <div id={"themes"}>
-                <select id={"theme"} onChange={changeTheme}>
-                    <option>Light</option>
-                    <option>Dark</option>
-                    <option>Auto</option>
-                    <option>Celestial</option>
-                    <option>Ghibli</option>
+                <select id={"theme"} value={"dark"} onChange={changeTheme}>
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="auto">Auto</option>
+                    <option value="planets">C</option>
+                    <option value="ghibli">G</option>
                 </select>
             </div>
         </nav>
