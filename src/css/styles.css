@@ -225,10 +225,6 @@ html {
   font-size: 16px;
   transition: 0.25s;
 }
-/* 
-.tile:hover .content .subtitle {
-  font-size: 20px;
-} */
 
 .tile .content .description {
   flex: auto;
@@ -240,10 +236,14 @@ html {
   font-size: 12px;
   transition: 0.25s;
 }
-/* 
-.tile:hover .content .description {
-  font-size: 16px;
-} */
+
+.rover-img {
+  content:url("../components/docs/images/rover.png");
+}
+
+.tile:hover .rover-img {
+  content:url("../components/docs/images/rover.webp");
+}
 
 #resume {
   margin: auto;

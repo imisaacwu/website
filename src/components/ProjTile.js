@@ -11,7 +11,7 @@ function ProjTile(props) {
 
     return (
         <Button as={"a"} href={props.url} target={"_blank"} rel="noreferrer">
-            <img src={require(`${props.img}`)} alt={props.alt}/>
+            {props.class == null ? <img src={require(`${props.img}`)} alt={props.alt}/> : <img className={props.class} alt={props.alt}/>}
             <div className={"content"}>
                 <div className={"title"}>{props.title}</div>
                 <div className={"subtitle"}>{props.subtitle}</div>

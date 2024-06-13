@@ -1,10 +1,5 @@
 import React from 'react';
 import ProjTile from "./ProjTile";
-import "./docs/images/icon.png";
-import "./docs/images/Cat.gif";
-import "./docs/images/ghibli.png";
-import "./docs/images/quaggy.png";
-import "./docs/images/Ghibli Food Compilation.mp4";
 
 function Projects(props) {
     return (
@@ -20,9 +15,13 @@ function Projects(props) {
                         url="https://devpost.com/software/safescroll"
                     />
                     <ProjTile
-                        img="./docs/images/sim.gif"
+                        title="Robotics Simulator"
+                        subtitle="For testing Mars Rovers"
+                        description="Developed as a Software member on UW's Husky Robotics team. Aiming to replicate real-world scenarios and allow for virtual testing."
+                        class="rover-img"
+                        alt="Gif of the simulator"
+                        url="https://github.com/huskyroboticsteam/Simulator"
                     />
-                    <ProjTile img="./docs/images/quaggy.png" />
                 </div>
                 <div className="col">
                     <ProjTile
