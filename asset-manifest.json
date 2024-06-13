@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.f1e94474.css",
-    "main.js": "/website/static/js/main.174d1553.js",
+    "main.css": "/website/static/css/main.7a10bfd0.css",
+    "main.js": "/website/static/js/main.9fcb4a46.js",
     "static/js/358.12d79525.chunk.js": "/website/static/js/358.12d79525.chunk.js",
-    "static/media/ghibli.png": "/website/static/media/ghibli.32a98098a88d90d09f59.png",
-    "static/media/Cat.gif": "/website/static/media/Cat.d961fc564789fab2d0f6.gif",
+    "static/media/rover.png": "/website/static/media/rover.027d7b37322181fe0220.png",
+    "static/media/rover.webp": "/website/static/media/rover.5a70ebebee4b07b0c8fc.webp",
     "static/media/Isaac-Wu-Resume.pdf": "/website/static/media/Isaac-Wu-Resume.1c2a36ea706eb0bdb81b.pdf",
-    "static/media/quaggy.png": "/website/static/media/quaggy.c02e5ada82502b13d9fe.png",
     "static/media/icon.png": "/website/static/media/icon.0c6c94a88083ab2e3928.png",
+    "static/media/chess.png": "/website/static/media/chess.d7c4b4dff6913178dd04.png",
+    "static/media/safescroll.jpeg": "/website/static/media/safescroll.7faa94d01aa73d246e4b.jpeg",
     "index.html": "/website/index.html",
-    "main.f1e94474.css.map": "/website/static/css/main.f1e94474.css.map",
-    "main.174d1553.js.map": "/website/static/js/main.174d1553.js.map",
+    "main.7a10bfd0.css.map": "/website/static/css/main.7a10bfd0.css.map",
+    "main.9fcb4a46.js.map": "/website/static/js/main.9fcb4a46.js.map",
     "358.12d79525.chunk.js.map": "/website/static/js/358.12d79525.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1e94474.css",
-    "static/js/main.174d1553.js"
+    "static/css/main.7a10bfd0.css",
+    "static/js/main.9fcb4a46.js"
   ]
 }
