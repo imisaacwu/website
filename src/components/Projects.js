@@ -1,10 +1,10 @@
 import React from 'react';
 import ProjTile from "./ProjTile";
-import "../css/styles.css";
 import "./docs/images/icon.png";
 import "./docs/images/Cat.gif";
 import "./docs/images/ghibli.png";
 import "./docs/images/quaggy.png";
+import "./docs/images/Ghibli Food Compilation.mp4";
 
 function Projects(props) {
     return (
@@ -12,80 +12,28 @@ function Projects(props) {
             <div id={"projects"} className={"container"}>
                 <div className={"col"}>
                     <ProjTile
-                        title="Title"
-                        subtitle="Subtitle"
-                        description="blah"
-                        img="./docs/images/icon.png"
+                        title="SafeScroll"
+                        subtitle="DubHacks '23 Winner"
+                        description="Extension that automatically blurs sensitive and potentially triggering content, including text and images."
+                        img="./docs/images/safescroll.jpeg"
+                        alt="SafeScroll icon"
+                        url="https://devpost.com/software/safescroll"
                     />
                     <ProjTile
-                        img="./docs/images/ghibli.png"
+                        img="./docs/images/sim.gif"
                     />
                     <ProjTile img="./docs/images/quaggy.png" />
-                    {/* <ProjTile
-                        title={"SafeScroll"}
-                        subtitle={"Dubhacks 2023"}
-                        description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
-                        img={"https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/623/924/datas/original.png"}
-                        url={"https://devpost.com/software/safescroll"}
-                    /> */}
-                    {/* <ProjTile
-                        title={"Title"}
-                        subtitle={"Subtitle"}
-                        description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
-                        img={"https://ghiblicollection.com/cdn/shop/files/MailPopUpImage@2x.png?v=1688148914"}
-                        url={"https://www.google.com"}
-                    />
-                    <ProjTile
-                        title={"Title"}
-                        subtitle={"Subtitle"}
-                        description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
-                        img={"https://ghiblicollection.com/cdn/shop/files/MailPopUpImage@2x.png?v=1688148914"}
-                        url={"https://www.google.com"}
-                    />
-                    <ProjTile
-                        title={"Title"}
-                        subtitle={"Subtitle"}
-                        description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
-                        img={"https://ghiblicollection.com/cdn/shop/files/MailPopUpImage@2x.png?v=1688148914"}
-                        url={"https://www.google.com"}
-                    /> */}
                 </div>
                 <div className="col">
                     <ProjTile
-                        title="Title"
-                        subtitle="sub"
-                        img="./docs/images/Cat.gif"
+                        title="Chess"
+                        subtitle="Made from scratch"
+                        description="Submitted as a part of my CSE 123 course, made in about 35 hours."
+                        img="./docs/images/chess.png"
+                        alt="Text chess board"
+                        url="https://github.com/imisaacwu/Chess"
                     />
                 </div>
-                {/* <div className={"col"}>
-                    <ProjTile
-                        title={"Title 2"}
-                        subtitle={"Subsubtitle"}
-                        description={"ahdskhgljkahgdkjlhgjkahfjkhalkg hahkldhgjklahjklghadjklsfhjkalghe uwiahlgkjdshguirehaljkdhsj kghjkaelhsiuodlghejlakhsjdfuiel ahgjkdahsdfuilehuailgrhjks ldhfjkaghjkrelahjfksdalf"}
-                        img={"https://upload.wikimedia.org/wikipedia/commons/7/78/Image.jpg"}
-                    />
-                    <ProjTile
-                        title={"Title"}
-                        subtitle={"Subtitle"}
-                        description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
-                        img={"./docs/images/icon.png"}
-                        url={"www.google.com"}
-                    />
-                    <ProjTile
-                        title={"Title"}
-                        subtitle={"Subtitle"}
-                        description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
-                        img={"https://ghiblicollection.com/cdn/shop/files/MailPopUpImage@2x.png?v=1688148914"}
-                        url={"https://www.google.com"}
-                    />
-                    <ProjTile
-                        title={"Title"}
-                        subtitle={"Subtitle"}
-                        description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
-                        img={"https://ghiblicollection.com/cdn/shop/files/MailPopUpImage@2x.png?v=1688148914"}
-                        url={"https://www.google.com"}
-                    />
-                </div> */}
             </div>
         </>
     );

@@ -1,6 +1,6 @@
 export const Resume = () => {
     return (
-        <div className="container centered">
+        <div className="container">
             <embed id="resume" src={require('./docs/pdf/Isaac-Wu-Resume.pdf')}/>
         </div>
     );

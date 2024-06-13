@@ -6,7 +6,6 @@ import Projects from "./components/Projects";
 import {Home} from "./components/Home";
 import {NoMatch} from "./components/NoMatch";
 import { Resume } from './components/Resume';
-import "./components/docs/pdf/Isaac-Wu-Resume.pdf";
 import Intro from './components/Intro';
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
                 <Route path={"resume"} element={<Resume />} />
                 <Route path={"*"} element={<NoMatch />} />
             </Routes>
-            {/* <embed src={"./components/docs/pdf/Isaac-Wu-Resume.pdf"} /> */}
         </>
     );
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import "../css/styles.css";
 
 function ProjTile(props) {
     const Button = ({onClick, children, as: Component='button', ...rest}) => {
@@ -11,8 +10,8 @@ function ProjTile(props) {
     }
 
     return (
-        <Button as={"a"} href={props.url} target={"_blank"}>
-            <img src={require(`${props.img}`)} alt={"icon"}/>
+        <Button as={"a"} href={props.url} target={"_blank"} rel="noreferrer">
+            <img src={require(`${props.img}`)} alt={props.alt}/>
             <div className={"content"}>
                 <div className={"title"}>{props.title}</div>
                 <div className={"subtitle"}>{props.subtitle}</div>

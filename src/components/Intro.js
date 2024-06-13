@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import "../css/styles.css";
 
 export default function Intro() {
     const navigate = useNavigate();

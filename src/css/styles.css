@@ -1,5 +1,7 @@
+/* Palette: https://coolors.co/3b6d86-e4ded3-94b798-2a4d43-557a64-648672 */
+
 html {
-  background-color: #282c34;
+  background-color: #94b798;
 }
 
 /* Offset for navbar */
@@ -11,8 +13,7 @@ html {
 
 #bkg {
   height: 100vh;
-  background-color: black;
-  z-index: -1;
+  background-color: #94b798;
 }
 
 .fade {
@@ -32,7 +33,7 @@ html {
 .slider {
   width: 100%;
   height: 49.75%;
-  background-color: white;
+  background-color: #2a4d43;
   position: absolute;
 }
 
@@ -41,8 +42,8 @@ html {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  color: #94b798;
   font-size: 96px;
-  /* font-weight: bold; */
 }
 
 .slide-up {
@@ -63,8 +64,8 @@ html {
 
 .panel {
   width: 70%;
-  margin: auto 25px;
-  color: aliceblue;
+  margin: auto 24px;
+  color: #2a4d43;
 }
 
 .panel .title {
@@ -82,10 +83,38 @@ html {
   color: inherit;
 }
 
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #me {
-  margin: 20px;
+  margin: 24px 8px 12px;
   border-radius: 50%;
-  width: 25%;
+  width: 70%;
+}
+
+#icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#icons a {
+  display: flex;
+}
+
+#icons i {
+  font-size: 32px;
+  margin: 8px;
+  color: #2a4d43;
+  transition: .25s;
+}
+
+#icons i:hover {
+  transform: scale(1.1);
 }
 
 #navbar {
@@ -97,8 +126,9 @@ html {
   top: 0;
   min-height: 7vh;
   width: 100%;
+  border-bottom: 2px solid #2a4d43;
 
-  background-color: #282c34;
+  background-color: #557a64;
 }
 
 #navbar a {
@@ -107,32 +137,18 @@ html {
   border-radius: 5px;
 
   text-decoration: none;
-  color: darkgrey;
+  color: #6f9b80;
   font-size: 24px;
   font-weight: bold;
   transition: .25s;
 }
 
 #navbar a.active {
-  color: aliceblue;
+  color: #e4ded3;
 }
 
 #navbar a:hover {
-  background-color: black;
-}
-
-#themes {
-  margin: 12px;
-}
-
-#theme {
-  padding: 4px;
-  border-radius: 5px;
-
-  background-color: #23252d;
-  border: none;
-  color: aliceblue;
-  font-size: 16px;
+  background-color: #2a4d43;
 }
 
 #projects {
@@ -153,10 +169,9 @@ html {
   height: 33vh;
 
   border: none;
-  background-color: rgba(0,0,0,0);
   transition: .25s;
   text-decoration: none;
-  color: black;
+  color: #2a4d43;
 }
 
 .tile:hover {
@@ -168,7 +183,7 @@ html {
 
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
-  border: 3px solid grey;
+  border: 2px solid #2a4d43;
   object-fit: cover;
   object-position: center;
 }
@@ -181,8 +196,8 @@ html {
   width: 30vmin;
   padding-left: 10px;
 
-  background-color: #999;
-  border: 3px solid grey;
+  background-color: #648672;
+  border: 2px solid #2a4d43;
   border-left: none;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
@@ -191,10 +206,11 @@ html {
 .tile .content .title {
   flex: initial;
 
-  padding: .3vh 0.25vh 0.25vh;
+  margin: 8px 8px 4px 4px;
+  /* padding: .3vh 0.25vh 0.25vh; */
 
   text-align: left;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bolder;
   letter-spacing: 0.05rem; /*TODO*/
 }
@@ -202,43 +218,42 @@ html {
 .tile .content .subtitle {
   flex: initial;
 
-  padding: 0.25vh;
+  margin: 0px 4px 4px;
 
-  color: #555;
+  color: #e4ded3;
   text-align: left;
   font-size: 16px;
   transition: 0.25s;
 }
-
+/* 
 .tile:hover .content .subtitle {
-  color: black;
   font-size: 20px;
-}
+} */
 
 .tile .content .description {
   flex: auto;
 
-  padding: 0.25vh;
+  padding: 0.5vh;
 
-  color: #555;
+  color: #e4ded3;
   text-align: left;
   font-size: 12px;
   transition: 0.25s;
 }
-
+/* 
 .tile:hover .content .description {
-  color: black;
   font-size: 16px;
-}
-
-.centered {
-  display: flex;
-  justify-content: center;
-}
+} */
 
 #resume {
   margin: auto;
 
   width: 80%;
   height: 100vh;
+}
+
+#nomatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
