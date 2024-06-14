@@ -15,13 +15,13 @@ export const Home = () => {
                 <img id="me" src={require('./docs/images/icon.png')} alt="me" />
                 <div id="icons">
                     <a href="https://github.com/imisaacwu" target="_blank" rel="noreferrer">
-                        <i class="bi bi-github"></i>
+                        <i className="bi bi-github"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/isaacw1925/" target="_blank" rel="noreferrer">
-                        <i class="bi bi-linkedin"></i>
+                        <i className="bi bi-linkedin"></i>
                     </a>
                     <a href="https://github.com/imisaacwu" target="_blank" rel="noreferrer">
-                        <i class="bi bi-envelope-fill"></i>
+                        <i className="bi bi-envelope-fill"></i>
                     </a>
                     {/* <a href="https://github.com/imisaacwu" target="_blank" rel="noreferrer">
                         <i class="bi bi-github"></i>

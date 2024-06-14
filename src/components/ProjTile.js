@@ -1,6 +1,17 @@
 import React from 'react';
 
-function ProjTile(props) {
+function ProjTile({
+        title = "Title",
+        subtitle = "Subtitle",
+        description = "Description",
+        img = "./docs/images/website.png",
+        img_class = "none",
+        alt = "alt",
+        url = "https://imisaacwu.github.io/website",
+        popup_icon = "Github",
+        popup_text = "Source code",
+        tags = []
+        }) {
     const Button = ({onClick, children, as: Component='button', ...rest}) => {
         return (
             <Component className={"tile"} {...rest}>
@@ -10,14 +21,27 @@ function ProjTile(props) {
     }
 
     return (
-        <Button as={"a"} href={props.url} target={"_blank"} rel="noreferrer">
-            {props.class == null ? <img src={require(`${props.img}`)} alt={props.alt}/> : <img className={props.class} alt={props.alt}/>}
-            <div className={"content"}>
-                <div className={"title"}>{props.title}</div>
-                <div className={"subtitle"}>{props.subtitle}</div>
-                <div className={"description"}>{props.description}</div>
-            </div>
-        </Button>
+        <div className="tile-wrap">
+            <a className="popup" href={url} target="_blank" rel="noreferrer">
+                <img className={`popup-icon ${popup_icon}`} alt={`${popup_icon} icon`} />
+                {popup_text}
+                <i className="bi bi-box-arrow-up-right" />
+            </a>
+            <Button as={"a"} href={url} target={"_blank"} rel="noreferrer">
+                {img_class === "none" ?
+                    <img className="proj-img" src={require(`${img}`)} alt={alt}/> :
+                    <img className={`proj-img ${img_class}`} alt={alt}/>}
+                <div className={"content"}>
+                    <div className={"title"}>{title}</div>
+                    <div className={"subtitle"}>{subtitle}</div>
+                    <div className={"description"}>{description}</div>
+                    <div className={"tags"}>
+                        {tags != null ? tags.map(t =>
+                            <div key={t} className={`tag ${t}`}><img className={`tag-icon ${t}`} alt={`icon of ${t}`}/>{t}</div>) : <></>}
+                    </div>
+                </div>
+            </Button>
+        </div>
     );
 }
 

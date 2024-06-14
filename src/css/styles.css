@@ -165,20 +165,24 @@ html {
 .tile {
   display: flex;
 
-  margin: 30px 15px;
+  margin: 0 15px;
   height: 33vh;
 
   border: none;
-  transition: .25s;
   text-decoration: none;
   color: #2a4d43;
 }
 
-.tile:hover {
+.tile-wrap {
+  margin: 30px 0;
+  transition: .25s;
+}
+
+.tile-wrap:hover {
   transform: scale(1.1);
 }
 
-.tile img {
+.tile img.proj-img {
   width: 20vw;
 
   border-bottom-left-radius: 5px;
@@ -203,7 +207,7 @@ html {
   border-top-right-radius: 5px;
 }
 
-.tile .content .title {
+.tile .title {
   flex: initial;
 
   margin: 8px 8px 4px 4px;
@@ -215,7 +219,7 @@ html {
   letter-spacing: 0.05rem; /*TODO*/
 }
 
-.tile .content .subtitle {
+.tile .subtitle {
   flex: initial;
 
   margin: 0px 4px 4px;
@@ -226,7 +230,7 @@ html {
   transition: 0.25s;
 }
 
-.tile .content .description {
+.tile .description {
   flex: auto;
 
   padding: 0.5vh;
@@ -236,6 +240,90 @@ html {
   font-size: 12px;
   transition: 0.25s;
 }
+
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 0;
+  width: 30%;
+  margin: auto;
+  padding: 4px 0 0 0;
+
+  text-decoration: none;
+  color: #2a4d43;
+  font-size: 0;
+  border-radius: 5px 5px 0 0;
+  background-color: #648672;
+  transition: .25s;
+}
+
+.tile-wrap:hover .popup {
+  height: 5%;
+  font-size: 16px;
+}
+
+.popup i {
+  margin: 0px 8px;
+}
+
+.popup-icon {
+  margin: 0 8px;
+  max-height: 0;
+  transition: .25s;
+}
+
+.tile-wrap:hover .popup-icon {
+  max-height: 16px;
+}
+
+.popup-icon.Github { content:url("../components/docs/images/github.png") }
+.popup-icon.Devpost { content:url("../components/docs/images/devpost.png") }
+
+.tile .tags {
+  display: flex;
+  flex: initial;
+  align-content: flex-end;
+}
+
+.tags div {
+  display: flex;
+  align-items: center;
+
+  background-color: #557a64;
+  color: #e4ded3;
+  margin: 4px;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 0;
+  transition: .25s;
+}
+
+.tags div:hover {
+  font-size: 12px;
+}
+
+.tags img.tag-icon {
+  margin: 2px;
+  max-width: 16px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tags div:hover img.tag-icon {
+  margin: 2px 4px 2px 2px;
+}
+
+.tags img.HTML { content:url("../components/docs/images/html.png"); }
+.tags img.CSS { content:url("../components/docs/images/css.png"); }
+.tags img.JavaScript { content:url("../components/docs/images/js.png"); }
+.tags img.Unity { content:url("../components/docs/images/unity.png"); }
+.tags img.C\# { content:url("../components/docs/images/cs.png"); }
+.tags img.React { content:url("../components/docs/images/react.png"); }
+.tags img.Java { content:url("../components/docs/images/java.webp"); }
+.tags img.Git { content:url("../components/docs/images/git.png"); }
+.tags img.Python { content:url("../components/docs/images/python.png"); }
 
 .rover-img {
   content:url("../components/docs/images/rover.png");
