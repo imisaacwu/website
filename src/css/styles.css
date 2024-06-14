@@ -185,12 +185,14 @@ html {
 .tile img.proj-img {
   width: 20vw;
 
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
+  border-radius: 5px 0 0 5px;
   border: 2px solid #2a4d43;
   object-fit: cover;
   object-position: center;
 }
+
+.rover-img { content:url("../components/docs/images/rover.png"); }
+.tile:hover .rover-img { content:url("../components/docs/images/rover.webp"); }
 
 .tile .content {
   display: flex;
@@ -203,20 +205,18 @@ html {
   background-color: #648672;
   border: 2px solid #2a4d43;
   border-left: none;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 0 5px 5px 0;
 }
 
 .tile .title {
   flex: initial;
 
   margin: 8px 8px 4px 4px;
-  /* padding: .3vh 0.25vh 0.25vh; */
 
   text-align: left;
   font-size: 32px;
   font-weight: bolder;
-  letter-spacing: 0.05rem; /*TODO*/
+  letter-spacing: 0.05rem;
 }
 
 .tile .subtitle {
@@ -291,10 +291,11 @@ html {
   display: flex;
   align-items: center;
 
-  background-color: #557a64;
-  color: #e4ded3;
   margin: 4px;
   padding: 2px;
+
+  background-color: #557a64;
+  color: #e4ded3;
   border-radius: 5px;
   font-size: 0;
   transition: .25s;
@@ -324,14 +325,6 @@ html {
 .tags img.Java { content:url("../components/docs/images/java.webp"); }
 .tags img.Git { content:url("../components/docs/images/git.png"); }
 .tags img.Python { content:url("../components/docs/images/python.png"); }
-
-.rover-img {
-  content:url("../components/docs/images/rover.png");
-}
-
-.tile:hover .rover-img {
-  content:url("../components/docs/images/rover.webp");
-}
 
 #resume {
   margin: auto;
