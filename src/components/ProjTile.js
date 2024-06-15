@@ -37,7 +37,10 @@ function ProjTile({
                     <div className={"description"}>{description}</div>
                     <div className={"tags"}>
                         {tags != null ? tags.map(t =>
-                            <div key={t} className={`tag ${t}`}><img className={`tag-icon ${t}`} alt={`icon of ${t}`}/>{t}</div>) : <></>}
+                            <div key={t} className={`tag ${t}`}>
+                                <img className={`tag-icon ${t}`} alt={`icon of ${t}`}/>
+                                {t}
+                            </div>) : <></>}
                     </div>
                 </div>
             </Button>

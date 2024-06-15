@@ -11,9 +11,9 @@ export default function Intro() {
     }, [navigate])
 
     return (
-        <div id="bkg" className="fade">
-            <div className="top slider slide-up">Isaac Wu</div>
-            <div className="bottom slider slide-down" />
+        <div id="bkg">
+            <div className="top slider">Isaac Wu</div>
+            <div className="bottom slider" />
         </div>
     )
 }
