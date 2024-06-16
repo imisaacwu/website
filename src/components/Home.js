@@ -3,9 +3,9 @@ import React from 'react'
 export const Home = () => {
     return (
         <div className="container">
-            <container id="small">
+            <div id="small" className="container">
                 <div className="title small">Hi, I'm Isaac Wu!</div>
-                <container id="main">
+                <div id="main" className="container">
                     <div className="panel">
                         <div className="title main">Hi, I'm Isaac Wu!</div>
                         <div className="bio">I'm a rising junior at UW studying
@@ -27,8 +27,8 @@ export const Home = () => {
                             </a>
                         </div>
                     </div>
-                </container>
-            </container>
+                </div>
+            </div>
         </div>
     );
 }

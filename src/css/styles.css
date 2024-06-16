@@ -305,19 +305,11 @@ html {
   transition: .25s;
 }
 
-.tags div:hover {
-  font-size: 12px;
-}
-
 .tags img.tag-icon {
   margin: 2px;
   max-width: 16px;
   object-fit: cover;
   object-position: center;
-}
-
-.tags div:hover img.tag-icon {
-  margin: 2px 4px 2px 2px;
 }
 
 .tags img.HTML { content:url("../components/docs/images/html.png"); }
@@ -375,10 +367,6 @@ html {
     font-size: 32px;
   }
 
-  .bio {
-    font-size: 16px;
-  }
-
   #icons i {
     font-size: 24px;
   }
@@ -404,6 +392,17 @@ html {
   .tile .content {
     width: 50vw;
     height: 192px;
+  }
+}
+
+@media screen and (min-width: 635px) {
+  /*** Projects ***/
+  .tags div:hover {
+    font-size: 12px;
+  }
+  
+  .tags div:hover img.tag-icon {
+    margin: 2px 4px 2px 2px;
   }
 }
 
