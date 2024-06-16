@@ -403,6 +403,7 @@ html {
 @media screen and (min-width: 635px) {
   /*** Projects ***/
   .tags div:hover {
+    width: auto;
     font-size: 12px;
   }
   
