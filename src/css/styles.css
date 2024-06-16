@@ -297,6 +297,8 @@ html {
 
   margin: 4px;
   padding: 2px;
+  width: 20px;
+  height: 20px;
 
   background-color: #557a64;
   color: #e4ded3;
@@ -377,15 +379,18 @@ html {
   }
 
   #one-col {
-    display: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .tile-wrap {
     margin: 16px 0;
+    width: 90vw;
   }
 
   .tile img.proj-img {
-    min-width: 192px;
+    min-width: 160px;
     height: 192px;
   }
 
