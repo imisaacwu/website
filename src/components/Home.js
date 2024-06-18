@@ -22,7 +22,7 @@ export const Home = () => {
                             <a href="https://www.linkedin.com/in/isaacw1925/" target="_blank" rel="noreferrer">
                                 <i className="bi bi-linkedin"></i>
                             </a>
-                            <a href="https://github.com/imisaacwu" target="_blank" rel="noreferrer">
+                            <a href="mailto:isaacwu@uw.edu" target="_blank" rel="noreferrer">
                                 <i className="bi bi-envelope-fill"></i>
                             </a>
                         </div>
