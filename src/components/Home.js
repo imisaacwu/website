@@ -8,9 +8,14 @@ export const Home = () => {
                 <div id="main" className="container">
                     <div className="panel">
                         <div className="title main">Hi, I'm Isaac Wu!</div>
-                        <div className="bio">I'm a rising junior at UW studying
-                            <a href="https://www.cs.washington.edu/academics/ugrad" target="_blank" rel="noreferrer"> Computer Engineering</a>
-                            .
+                        <div className="bio">I'm a rising junior at UW studying&nbsp;
+                            <a href="https://www.cs.washington.edu/academics/ugrad" target="_blank" rel="noreferrer">Computer Engineering</a>. <br /><br />
+                            I enjoy finding new projects to continue developing my programming skills :&#41;<br /><br />
+                            When I'm not obsessing over coding problems, I like reading books (
+                                <a href="https://www.goodreads.com/book/show/44767458-dune" target="_blank" rel="noreferrer">currently reading</a>
+                            ), discovering new music (
+                                <a href="https://open.spotify.com/track/2SPbioo65CuUB3H0aW1ID5?si=6d300816eb8a4f31" target="_blank" rel="noreferrer">on repeat</a>
+                            ), and playing video games.
                         </div>
                     </div>
                     <div id="info">
