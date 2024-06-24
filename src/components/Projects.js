@@ -36,6 +36,16 @@ function Projects(props) {
             tags={["Java", "Git"]}
         />,
         <ProjTile
+            title="Maze & Labyrinth Generator"
+            key="Maze/Labyrinth Generator"
+            subtitle="Built for Hackclub's Blot"
+            description="Mazes generated using a randomized Kruskal's, Labyrinths built procedurally using their seed pattern."
+            img="./docs/images/maze.png"
+            alt="A generated maze"
+            url="https://github.com/imisaacwu/blot"
+            tags={["JavaScript", "Git"]}
+        />,
+        <ProjTile
             title="Personal Website"
             key="Personal Website"
             subtitle="(You're on it)"
