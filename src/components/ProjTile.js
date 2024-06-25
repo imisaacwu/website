@@ -8,10 +8,10 @@ function ProjTile({
         img_class = "none",
         alt = "alt",
         url = "https://imisaacwu.github.io/website",
-        popup_icon = "Github",
+        popup_icon = "./docs/images/github.png",
         popup_text = "Source code",
         tags = []
-        }) {
+    }) {
     const Button = ({onClick, children, as: Component='button', ...rest}) => {
         return (
             <Component className={"tile"} {...rest}>
@@ -23,7 +23,7 @@ function ProjTile({
     return (
         <div className="tile-wrap">
             <a className="popup" href={url} target="_blank" rel="noreferrer">
-                <img className={`popup-icon ${popup_icon}`} alt={`${popup_icon} icon`} />
+                <img src={require(`${popup_icon}`)} className={"popup-icon"} alt={`${popup_icon.slice(popup_icon.lastIndexOf("/",-4))} icon`} />
                 {popup_text}
                 <i className="bi bi-box-arrow-up-right" />
             </a>
