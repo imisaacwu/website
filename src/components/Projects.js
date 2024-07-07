@@ -38,7 +38,7 @@ function Projects(props) {
             description: "Mazes generated using a randomized Kruskal's, Labyrinths built procedurally using their seed pattern.",
             img: "./docs/images/maze.png",
             alt: "A generated maze",
-            url: "https://github.com/imisaacwu/blot",
+            url: "https://github.com/hackclub/blot/pull/544",
             tags: ["JavaScript", "Git"]
         },
         {
