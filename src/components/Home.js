@@ -14,7 +14,7 @@ export const Home = () => {
                             When I'm not obsessing over coding problems, I like reading books (
                                 <a href="https://www.goodreads.com/book/show/44767458-dune" target="_blank" rel="noreferrer">currently reading</a>
                             ), discovering new music (
-                                <a href="https://open.spotify.com/track/2SPbioo65CuUB3H0aW1ID5?si=6d300816eb8a4f31" target="_blank" rel="noreferrer">on repeat</a>
+                                <a href="https://open.spotify.com/track/7G6WuVZuTbF6JcnA9wOvsD?si=fa4ac5d8dad14ed8" target="_blank" rel="noreferrer">on repeat</a>
                             ), and playing video games.
                         </div>
                     </div>
