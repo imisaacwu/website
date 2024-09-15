@@ -28,7 +28,7 @@ function Projects(props) {
             subtitle: "A web-based clone of video game Balatro",
             description: "",
             img: "./docs/images/webatro.png",
-            alt: "A picture of gameplay",
+            alt: "Main Menu",
             url: "https://github.com/imisaacwu/webatro",
             tags: ["React", "Vite", "TypeScript", "CSS", "Git"]
         },
