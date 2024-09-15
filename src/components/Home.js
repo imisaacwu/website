@@ -12,9 +12,9 @@ export const Home = () => {
                             <a href="https://www.cs.washington.edu/academics/ugrad" target="_blank" rel="noreferrer">Computer Engineering</a>. <br /><br />
                             I enjoy finding new projects to continue developing my programming skills :&#41;<br /><br />
                             When I'm not obsessing over coding problems, I like reading books (
-                                <a href="https://www.goodreads.com/book/show/44767458-dune" target="_blank" rel="noreferrer">currently reading</a>
+                                <a href="https://www.goodreads.com/book/show/18619684-the-time-traveler-s-wife" target="_blank" rel="noreferrer">currently reading</a>
                             ), discovering new music (
-                                <a href="https://open.spotify.com/track/7G6WuVZuTbF6JcnA9wOvsD?si=fa4ac5d8dad14ed8" target="_blank" rel="noreferrer">on repeat</a>
+                                <a href="https://open.spotify.com/track/5NvOZCjZaGGGL597exlQWv?si=58e9134a95064ea3" target="_blank" rel="noreferrer">on repeat</a>
                             ), and playing video games.
                         </div>
                     </div>

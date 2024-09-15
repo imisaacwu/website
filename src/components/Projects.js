@@ -24,6 +24,15 @@ function Projects(props) {
             tags: ["React.js", "C#", "Unity", "Git"]
         },
         {
+            title: "Webatro",
+            subtitle: "A web-based clone of video game Balatro",
+            description: "",
+            img: "./docs/images/webatro.png",
+            alt: "A picture of gameplay",
+            url: "https://github.com/imisaacwu/webatro",
+            tags: ["React", "Vite", "TypeScript", "CSS", "Git"]
+        },
+        {
             title: "Chess",
             subtitle: "Made from scratch",
             description: "Submitted as a part of my CSE 123 course, made over a week.",
