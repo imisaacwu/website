@@ -21,7 +21,7 @@ function Projects(props) {
             img_class: "rover-img",
             alt: "Gif of the simulator",
             url: "https://github.com/huskyroboticsteam/Simulator",
-            tags: ["React.js", "C#", "Unity", "Git"]
+            tags: ["React", "C#", "Unity", "Git"]
         },
         {
             title: "Webatro",
@@ -57,7 +57,7 @@ function Projects(props) {
             img: "./docs/images/website.png",
             alt: "Home page",
             url: "https://github.com/imisaacwu/website",
-            tags: ["React.js", "HTML", "CSS", "Git"]
+            tags: ["React", "HTML", "CSS", "Git"]
         }
     ].map(proj => <ProjTile key={proj.title} {...proj} />)
     .reduce((acc, val, i, arr) => {
