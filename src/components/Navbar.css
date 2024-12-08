@@ -1,0 +1,27 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    min-height: 7vh;
+    width: 100%;
+    border-bottom: 2px solid aliceblue;
+    background-color: var(--bkg);
+}
+
+#navbar a {
+    margin: auto 10px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bold;
+    transform: .25s;
+}
+
+#navbar a:hover {
+    background-color: var(--light-bkg);
+}

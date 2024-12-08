@@ -1,0 +1,21 @@
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: aliceblue;
+  background-color: #1f1f1f;
+
+  margin: 0;
+
+  --bkg: #181818;
+  --light-bkg: #1f1f1f;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 7vh auto auto;
+}

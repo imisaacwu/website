@@ -1,0 +1,132 @@
+#tile-wrap {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    margin: 16px;
+    width: 45vw;
+}
+
+#tile {
+    display: flex;
+
+    margin: 0 3vmin;
+}
+
+#tile .proj-img {
+    flex: initial;
+    width: 256px;
+    height: 256px;
+
+    border-radius: 5px 0 0 5px;
+    border: 2px solid aliceblue;
+    object-fit: cover;
+    object-position: center;
+}
+
+#tile #content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    width: 60%;
+    padding-left: 10px;
+    text-align: left;
+
+    border: 2px solid aliceblue;
+    border-left: none;
+    background-color: var(--bkg);
+    border-radius: 0 5px 5px 0;
+}
+
+#tile #title {
+    flex: initial;
+    margin: 8px 8px 4px 4px;
+    font-size: 32px;
+    font-weight: bolder;
+    letter-spacing: 0.05rem;
+}
+
+#tile #subtitle {
+    flex: initial;
+    margin: 0px 4px 4px;
+    font-size: 24px;
+}
+
+#tile #description {
+    flex: auto;
+    padding: 0.5vh;
+    font-size: 16px;
+}
+
+#popup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 192px;
+    margin: 0 auto;
+    padding: 4px 0;
+
+    font-size: 0;
+    border-radius: 5px 5px 0 0;
+    text-decoration: none;
+    color: var(--light-bkg);
+    background-color: aliceblue;
+    transition: .25s;
+}
+
+#tile-wrap:hover #popup {
+    height: 5%;
+    font-size: 16px;
+}
+
+#popup i {
+    margin: 0px 8px;
+}
+
+.popup-icon {
+    margin: 0 8px;
+    height: 0;
+    transition: .25s;
+}
+
+#tile-wrap:hover .popup-icon {
+    height: 16px;
+}
+
+#tile #tags {
+    display: flex;
+    flex: initial;
+    align-content: flex-end;
+    overflow: auto;
+
+    margin: 4px 0;
+}
+
+#tile .tag {
+    display: flex;
+    align-items: center;
+
+    font-size: 0;
+    margin: 2px;
+    padding: 4px;
+    width: 20px;
+    height: 20px;
+    transition: .5s;
+
+    background-color: var(--light-bkg);
+    border-radius: 4px;
+}
+
+#tile .tag:hover {
+    width: auto;
+    font-size: 12px;
+}
+
+#tile .tag-icon {
+    margin: 2px;
+    max-width: 16px;
+    object-fit: cover;
+    object-position: center;
+}
