@@ -11,3 +11,19 @@
     flex-direction: row;
     margin: 8px 0;
 }
+
+#one-col {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    #two-col {
+        display: none;
+    }
+
+    #one-col {
+        display: flex;
+    }
+}

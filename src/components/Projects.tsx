@@ -20,7 +20,9 @@ export const Projects = () => {
                     </div>
                 )}
             </div>
-            {/* {tiles} */}
+            <div id='one-col'>
+                {tiles}
+            </div>
         </div>
     )
 }
