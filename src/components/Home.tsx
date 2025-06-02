@@ -15,7 +15,7 @@ export const Home = () => {
                 </div>
             </div>
             <div id='info'>
-                <img id='me' src={'./images/me.jpeg'} />
+                <img id='me' src={'./images/me.jpg'} />
                 <div id='icons'>
                     <a href='https://github.com/imisaacwu' target='_blank' rel='noreferrer'>
                         <i className='bi bi-github' />
