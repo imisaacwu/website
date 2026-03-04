@@ -1,0 +1,9 @@
+#footer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2rem;
+
+    background-color: var(--bkg);
+    padding: 1rem;
+}

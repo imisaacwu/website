@@ -7,7 +7,7 @@ export const Navbar = () => {
             <div id='links'>
                 <NavLink to='/home'>Home</NavLink>
                 <NavLink to='/projects'>Projects</NavLink>
-                <NavLink to='/resume'>Resumé</NavLink>
+                {/* <NavLink to='/resume'>Resumé</NavLink> */}
             </div>
         </nav>
     )

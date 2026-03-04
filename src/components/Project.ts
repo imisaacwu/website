@@ -1,3 +1,39 @@
+export enum Icon {
+    'Java',
+    'TypeScript',
+    'JavaScript',
+    'React',
+    'Vite',
+    'HTML',
+    'Unity',
+    'C\#',
+    'Python',
+    'FastAPI',
+    'Intel Tiber',
+    'OpenAI Whisper',
+    'Perplexity',
+    'PyTorch',
+    'Scikit-learn'
+}
+
+export const iconSrc: {[I in keyof typeof Icon]: string} = {
+    Java: './images/java.webp',
+    TypeScript: './images/typescript.png',
+    JavaScript: './images/js.png',
+    React: './images/react.png',
+    Vite: './images/vite.svg',
+    HTML: './images/html.png',
+    Unity: './images/unity.png',
+    'C\#': './images/cs.png',
+    Python: './images/python.png',
+    FastAPI: './images/fastapi.png',
+    "Intel Tiber": './images/tiber.jpg',
+    'OpenAI Whisper': './images/openai.webp',
+    Perplexity: './images/perplexity.webp',
+    PyTorch: './images/pytorch.png',
+    'Scikit-learn': './images/scikit.png'
+}
+
 export type Project = {
     title: string
     subtitle: string
@@ -71,13 +107,4 @@ export const projects: Project[] = [
         url: 'https://github.com/hackclub/blot/pull/544',
         tags: ['JavaScript']
     },
-    {
-        title: 'Personal Website',
-        subtitle: '(You\'re on it)',
-        description: 'Self-learned and developed over the course of about two weeks, with the aim to create a place where I can showcase my projects.',
-        img: './images/website.png',
-        alt: 'Home page',
-        url: 'https://github.com/imisaacwu/website',
-        tags: ['React', 'Vite', 'TypeScript', 'HTML']
-    }
 ]

@@ -1,27 +1,24 @@
 #navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    position: fixed;
+    position: sticky;
     top: 0;
-    min-height: 7vh;
-    width: 100%;
-    border-bottom: 2px solid aliceblue;
+    padding: 1rem;
     background-color: var(--bkg);
+
+    z-index: 50;
 }
 
 #navbar a {
-    margin: auto 10px;
-    padding: 4px 8px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: aliceblue;
+    padding: .25rem 1rem;
+
+    text-decoration: inherit;
     font-size: 24px;
     font-weight: bold;
-    transform: .25s;
+    color: aliceblue;
+    border-radius: 5px;
 }
 
-#navbar a:hover {
-    background-color: var(--light-bkg);
+@media (prefers-reduced-motion: no-preference) {
+    #navbar a:hover {
+        background-color: var(--light-bkg);
+    }
 }

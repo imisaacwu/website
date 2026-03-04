@@ -1,29 +1,25 @@
 #projects {
-    width: 90vw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+
+    padding: 2rem;
+    gap: 2rem;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    margin: 8px 0;
-}
-
-#one-col {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-}
-
-@media screen and (max-width: 1024px) {
-    #two-col {
-        display: none;
+/* See https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+@media (min-width: 576px) {
+    #projects {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+}
 
-    #one-col {
-        display: flex;
+@media (min-width: 768px) {
+    #projects {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 992px) {
+    #projects {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
