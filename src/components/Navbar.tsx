@@ -5,7 +5,7 @@ export const Navbar = () => {
     return (
         <nav id='navbar'>
             <div id='links'>
-                <NavLink to='/home'>Home</NavLink>
+                <NavLink to='/'>Home</NavLink>
                 <NavLink to='/projects'>Projects</NavLink>
                 {/* <NavLink to='/resume'>Resumé</NavLink> */}
             </div>
