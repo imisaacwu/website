@@ -5,7 +5,7 @@ import './ProjectTile.css'
 export const ProjectTile = ({
     title = 'Title',
     subtitle = 'Subtitle',
-    description = 'Description',
+    // description = 'Description',
     img = './docs/images/i-con.png',
     alt = 'alt',
     url = 'https://imisaacwu.github.io/website',
