@@ -3,7 +3,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 export const Home = () => {
     return (
-        <div className='container'>
+        <div id='home' className='container'>
             <div id='panel'>
                 <div id='title'>Hi, I'm Isaac Wu!</div>
                 <div id='bio'>
