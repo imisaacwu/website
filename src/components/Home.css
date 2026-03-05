@@ -14,10 +14,11 @@
 
     #info {
         width: 100%;
+        margin: 0;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     #home {
         flex-direction: row;
     }
@@ -28,6 +29,7 @@
 
     #info {
         width: 40%;
+        margin: 0 24px;
     }
 }
 
@@ -49,8 +51,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    margin: 0 24px;
 }
 
 #me {
