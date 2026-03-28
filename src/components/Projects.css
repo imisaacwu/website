@@ -1,6 +1,6 @@
 #projects {
     display: grid;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 /* See https://getbootstrap.com/docs/5.0/layout/breakpoints/ */

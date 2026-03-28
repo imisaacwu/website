@@ -1,9 +1,8 @@
 #footer {
     display: flex;
     justify-content: center;
+    grid-area: footer;
 
-    margin-top: 2rem;
-
-    background-color: var(--bkg);
+    background-color: var(--neutral7);
     padding: 1rem;
 }

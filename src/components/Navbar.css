@@ -2,7 +2,9 @@
     position: sticky;
     top: 0;
     padding: 1rem;
-    background-color: var(--bkg);
+    background-color: var(--neutral7);
+    border-bottom: 2px solid var(--neutral3);
+    grid-area: nav;
 
     z-index: 50;
 }
@@ -13,12 +15,12 @@
     text-decoration: inherit;
     font-size: 24px;
     font-weight: bold;
-    color: aliceblue;
+    color: var(--neutral2);
     border-radius: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
     #navbar a:hover {
-        background-color: var(--light-bkg);
+        background-color: var(--neutral6);
     }
 }

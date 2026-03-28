@@ -13,14 +13,13 @@ export enum Icon {
     'OpenAI Whisper',
     'Perplexity',
     'PyTorch',
-    'Scikit-learn'
 }
 
 export const iconSrc: {[I in keyof typeof Icon]: string} = {
-    Java: './images/java.webp',
+    Java: './images/java.png',
     TypeScript: './images/typescript.png',
     JavaScript: './images/js.png',
-    React: './images/react.png',
+    React: './images/react.svg',
     Vite: './images/vite.svg',
     HTML: './images/html.png',
     Unity: './images/unity.png',
@@ -28,10 +27,9 @@ export const iconSrc: {[I in keyof typeof Icon]: string} = {
     Python: './images/python.png',
     FastAPI: './images/fastapi.png',
     "Intel Tiber": './images/tiber.jpg',
-    'OpenAI Whisper': './images/openai.webp',
+    'OpenAI Whisper': './images/openai.png',
     Perplexity: './images/perplexity.webp',
     PyTorch: './images/pytorch.png',
-    'Scikit-learn': './images/scikit.png'
 }
 
 export type Project = {
@@ -57,13 +55,13 @@ export const projects: Project[] = [
         url: 'https://devpost.com/software/brainstorm-mdaqp3',
         popup_icon: './images/devpost.png',
         popup_text: 'Submission',
-        tags: ['React', 'Vite', 'TypeScript', 'FastAPI', 'Intel Tiber', 'OpenAI Whisper', 'Perplexity', 'PyTorch', 'Scikit-learn']
+        tags: ['React', 'Vite', 'TypeScript', 'FastAPI', 'Intel Tiber', 'OpenAI Whisper', 'Perplexity', 'PyTorch']
     },
     {
         title: 'SafeScroll',
         subtitle: 'DubHacks \'23 Winner',
         description: 'Extension that automatically blurs sensitive and potentially triggering content, including text and images.',
-        img: './images/safescroll.jpeg',
+        img: './images/safescroll.png',
         alt: 'SafeScroll logo',
         url: 'https://devpost.com/software/safescroll',
         popup_icon: './images/devpost.png',
