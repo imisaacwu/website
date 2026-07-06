@@ -11,6 +11,7 @@
 
     #panel {
         width: 100%;
+        margin: auto 2px;
     }
 
     #info {
@@ -26,16 +27,13 @@
 
     #panel {
         width: 60%;
+        margin: auto 24px;
     }
 
     #info {
         width: 40%;
         margin: 0 24px;
     }
-}
-
-#panel {
-    margin: auto 24px;
 }
 
 #panel #title {
