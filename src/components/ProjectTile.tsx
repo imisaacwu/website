@@ -24,7 +24,7 @@ export const ProjectTile = ({
                 <div id='tags'>
                     {tags.map(tag => 
                         <div>
-                            <img alt={tag} src={iconSrc[tag as keyof typeof Icon]}/>
+                            <img key={tag} alt={tag} src={iconSrc[tag as keyof typeof Icon]}/>
                         </div>
                     )}
                 </div>

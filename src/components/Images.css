@@ -1,0 +1,22 @@
+#carousel {
+    display: flex;
+    margin: .5rem 0;
+
+    width: 0;
+    min-width: 100%;
+    overflow-x: scroll;
+}
+
+#carousel img {
+    max-height: 13rem;
+}
+
+@keyframes autoscroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(5rem);
+    }
+}

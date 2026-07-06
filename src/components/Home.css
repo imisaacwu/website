@@ -44,9 +44,47 @@
 
 #panel #bio {
     font-size: 24px;
+    padding-bottom: 1rem;
 }
 
 #panel #bio a { color: inherit; }
+
+#bio #subbio {
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+#panel #interests {
+    display: inline-block;
+    min-width: 100%;
+    font-size: 20px;
+}
+
+#interests #selector {
+    display: flex;
+    justify-content: space-between;
+}
+
+#selector .selected {
+    color: var(--primary4);
+}
+
+#selector div {
+    text-decoration: underline;
+}
+
+#selector div:hover {
+    cursor: pointer;
+}
+
+#interests #interest {
+    margin: .5rem 0;
+    padding: .5rem;
+    background-color: var(--neutral7);
+    border-radius: 5px;
+}
+
+#interests div a { color: inherit; }
 
 #info {
     display: flex;
