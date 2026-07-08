@@ -5,6 +5,12 @@
     width: 0;
     min-width: 100%;
     overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#carousel a:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 #carousel img {
